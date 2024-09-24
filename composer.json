@@ -1,0 +1,26 @@
+{
+    "name": "tkegan/phing-sample",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^11.3",
+        "phing/phing": "dev-tkeganupdate-sebastian-version"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhingSample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tom Egan",
+            "email": "tom@tomegan.tech"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tkegan/phing.git"
+        }
+    ]
+}
